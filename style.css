@@ -1,0 +1,14 @@
+div
+{
+	background: repeating-linear-gradient(60deg, green 20px, blue 50px, yellow 70px);
+	height: 300px;
+	width: 300px;
+	margin-top: 200px;
+	transition: all 2s ease-in-out;
+}
+body:hover div
+{
+	background: linear-gradient(10deg, magenta, aqua, limegreen, yellow);
+	margin-left: 500px;
+	transform: rotate(-700deg) skew(15deg) scale(0.7);
+}
