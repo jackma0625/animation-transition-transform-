@@ -12,3 +12,5 @@ body:hover div
 	margin-left: 500px;
 	transform: rotate(-700deg) skew(15deg) scale(0.7);
 }
+*
+{box-sizing: border-box;}
